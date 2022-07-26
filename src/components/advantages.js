@@ -2,7 +2,7 @@ import React from "react";
 import avatar from '../images/avatar.png';
 
 const Advantages = ({styles}) => {
-    console.log(styles)
+
     return (<section className={`wrapper ${styles.wrapper}`}>
         <div className={`title-and-description ${styles.titleAndDescription}`}>
             <h1>
