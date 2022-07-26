@@ -3,8 +3,8 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-
 
 html {
     color: #fff;
@@ -21,7 +21,6 @@ section {
     margin: 0 auto;
     max-width: 933px;
 }
-
 
 img {
     display: block;
@@ -71,11 +70,6 @@ li::before {
     bottom: 7px;
 }
 
-.media {
-    display: flex;
-    align-items: flex-start;
-}
-
 .avatar {
     background-color: transparent;
     border: 1px solid rgba(179, 146, 240, 0.3);
@@ -94,7 +88,7 @@ li::before {
 .media-content {
     background-color: #191B20;
     border-radius: 12px;
-    padding: 20px 50px 20px 24px;
+    padding: 20px 24px 20px 24px;
     position: relative;
 }
 

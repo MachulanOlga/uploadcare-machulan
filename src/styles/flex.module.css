@@ -4,8 +4,14 @@
     flex-wrap: wrap;
 }
 
+.media-content {
+    flex-grow: 1;
+}
+
 .media {
     flex-basis: 490px;
+    display: flex;
+    align-items: flex-start;
 }
 
 .title-and-description {
@@ -29,6 +35,9 @@
         flex-basis: 385px;
     }
 
+    .media-content {
+        flex-grow: 0;
+    }
 }
 
 @media screen and (max-width: 768px) {

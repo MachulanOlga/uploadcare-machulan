@@ -4,8 +4,6 @@ import Layout from "../components/layout"
 import Advantages from "../components/advantages"
 import * as flex from '../styles/flex.module.css'
 
-console.log(flex)
-
 const FirstPage = () => (
   <Layout>
     <Helmet>
