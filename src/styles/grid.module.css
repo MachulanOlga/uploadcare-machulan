@@ -1,0 +1,33 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 490px 310px;
+    grid-column-gap: 10px;
+    justify-content: space-between;
+    grid-row-gap:6px;
+    max-width: 933px;
+}
+
+@media screen and (max-width: 860px) {
+    .wrapper {
+        grid-template-columns: 385px 310px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .features {
+        height: auto;
+    }
+
+    html {
+        font-size: 14px;
+    }
+
+    main {
+        padding: 2rem 1.3rem;
+    }
+}
