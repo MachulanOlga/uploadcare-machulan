@@ -1,5 +1,5 @@
 import React from "react";
-import { StaticImage } from "gatsby-plugin-image"
+import avatar from '../images/avatar.png';
 
 const Advantages = ({styles}) => {
     console.log(styles)
@@ -30,17 +30,12 @@ const Advantages = ({styles}) => {
             <div class="avatar">
                 <div>
                     <div>
-                        <StaticImage
-                            src="../images/avatar.png"
-                            loading="eager"
-                            formats={["auto", "webp", "avif"]}
-                            alt="User avatar"
-                        />
+                        <img src={avatar} alt="User avatar" />
                     </div>
                 </div>
             </div>
 
-            <div class="media-content">
+            <div className={`media-content ${styles.mediaContent}`}>
                 In-house file infrastructure? No thank you.
             </div>
         </div>
