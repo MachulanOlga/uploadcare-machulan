@@ -1,9 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
 import { Helmet } from "react-helmet"
-import Layout from "../components/layout"
-
 
 const IndexPage = () => {
   return (<>
@@ -12,8 +9,9 @@ const IndexPage = () => {
     </Helmet>
     <div style={{margin: 20}}>
       <ul>
-        <li><Link to="/page-1">Page 1</Link></li>
-        <li><Link to="/page-2">Page 2</Link></li>
+        <li><Link to="/page-1">Flex</Link></li>
+        <li><Link to="/page-2">Grid</Link></li>
+        <li><Link to="/page-3">Grid Template Areas</Link></li>
       </ul>
     </div>
   </>)

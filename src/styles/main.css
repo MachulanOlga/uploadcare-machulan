@@ -24,6 +24,7 @@ section {
 
 img {
     display: block;
+    border-radius: 50%;
 }
 
 h1 {
@@ -31,7 +32,7 @@ h1 {
     font-weight: 700;
     color: rgba(231, 236, 242, 1);
     line-height: 2.4rem;
-    letter-spacing: calc(2rem / -40); 
+    letter-spacing: calc(2rem / -40);
     margin: 0 0 25px 0;
 }
 
@@ -64,25 +65,19 @@ li::before {
     height: 0;
     margin-right: 20px;
     position: relative;
-    border-color: transparent transparent transparent #0BAEFF ;
+    border-color: transparent transparent transparent #0BAEFF;
     border-style: solid;
     border-width: 4px 0px 4px 8px;
     bottom: 7px;
 }
 
 .avatar {
-    background-color: transparent;
-    border: 1px solid rgba(179, 146, 240, 0.3);
-    border-radius: 50%;
-    padding: 3px;
-    margin-right: 13px;
-}
-
-.avatar > div {
-    background-color: transparent;
-    border: 1px solid rgba(179, 146, 240, 0.6);
-    border-radius: 50%;
-    padding: 4px;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTQiIGhlaWdodD0iNTQiIHZpZXdCb3g9IjAgMCA1NCA1NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBvcGFjaXR5PSIwLjMiIGN4PSIyNyIgY3k9IjI3IiByPSIyNi41IiBzdHJva2U9IiNCMzkyRjAiLz4KPGNpcmNsZSBvcGFjaXR5PSIwLjYiIGN4PSIyNyIgY3k9IjI3IiByPSIyMy41IiBzdHJva2U9IiNCMzkyRjAiLz4KPC9zdmc+Cg==");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 7px;
+    margin-right: 1rem;
 }
 
 .media-content {
@@ -101,17 +96,7 @@ li::before {
     transform: translate3d(-100%, -100%, 0);
     width: 0;
     height: 0;
-    border-color: transparent #191B20 transparent transparent  ;
+    border-color: transparent #191B20 transparent transparent;
     border-style: solid;
     border-width: 7px 7px 7px 0px;
-}
-
-.title-and-description {
-    height: auto;
-    margin-bottom: 30px;
-}
-
-.features {
-    height: 1px;
-    margin-bottom: 30px;
 }

@@ -7,7 +7,7 @@ import * as grid from '../styles/grid.module.css'
 const SecondPage = () => (
     <Layout>
         <Helmet>
-            <title>Тестовое задание Page-2</title>     
+            <title>Тестовое задание Grid Page-2</title>
         </Helmet>
         <Advantages styles={grid} />
     </Layout>

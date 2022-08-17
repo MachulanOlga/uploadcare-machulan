@@ -1,17 +1,24 @@
 .wrapper {
+    padding-bottom: 30px;
     display: grid;
     grid-template-columns: 490px 310px;
-    grid-column-gap: 10px;
     grid-row-gap: 30px;
     justify-content: space-between;
     max-width: 933px;
+    grid-template-areas: "description features"
+        "media  features";
+}
+
+.title-and-description {
+    grid-area: description;
 }
 
 .features {
-    height: 1px;
+    grid-area: features;
 }
 
 .media {
+    grid-area: media;
     display: grid;
     align-items: center;
     grid-template-columns: max-content 1fr;
@@ -27,17 +34,17 @@
     }
 
     .media-content {
-        max-width: 300px;
+        width: fit-content;
     }
 }
 
 @media screen and (max-width: 768px) {
     .wrapper {
-        grid-template-columns: 1fr;
-    }
+        grid-template-areas: "description"
+            "features"
+            "media";
 
-    .features {
-        height: auto;
+        grid-template-columns: auto;
     }
 
     html {

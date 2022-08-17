@@ -11,15 +11,19 @@
 .media {
     flex-basis: 490px;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    margin-bottom: 30px;
 }
 
 .title-and-description {
     flex-basis: 490px;
+    margin-bottom: 30px;
 }
 
 .features {
     flex-basis: 310px;
+    height: 1px;
+    margin-bottom: 30px;
 }
 
 @media screen and (max-width: 860px) {
@@ -29,6 +33,7 @@
 
     .media {
         flex-basis: 385px;
+        align-items: flex-start;
     }
 
     .title-and-description {

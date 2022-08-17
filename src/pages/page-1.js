@@ -5,12 +5,12 @@ import Advantages from "../components/advantages"
 import * as flex from '../styles/flex.module.css'
 
 const FirstPage = () => (
-  <Layout>
-    <Helmet>
-      <title>Тестовое задание Page-1</title>
-    </Helmet>
-    <Advantages styles={flex} />
-  </Layout>
+    <Layout>
+        <Helmet>
+            <title>Тестовое задание Flex Page-1</title>
+        </Helmet>
+        <Advantages styles={flex} />
+    </Layout>
 )
 
 export default FirstPage

@@ -1,7 +1,7 @@
 import React from "react";
 import avatar from '../images/avatar.png';
 
-const Advantages = ({styles}) => {
+const Advantages = ({ styles }) => {
 
     return (<section className={`wrapper ${styles.wrapper}`}>
         <div className={`title-and-description ${styles.titleAndDescription}`}>
@@ -26,14 +26,10 @@ const Advantages = ({styles}) => {
             </ul>
         </div>
 
-        <div class="media" className={`media ${styles.media ?? ''}`}>
-            <div class="avatar">
-                <div>
-                    <div>
-                        <img src={avatar} alt="User avatar" />
-                    </div>
-                </div>
-            </div>
+        <div className={`media ${styles.media ?? ''}`}>
+            <figure className="avatar">
+                <img src={avatar} alt="User avatar" />
+            </figure>
 
             <div className={`media-content ${styles.mediaContent}`}>
                 In-house file infrastructure? No thank you.
