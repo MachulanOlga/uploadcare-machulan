@@ -23,6 +23,12 @@ const Advantages = ({ styles }) => {
                 <li> Signed uploads </li>
                 <li> Platform-side MIME-type filtering </li>
                 <li> Up to 5 TB file size </li>
+                <li> Accelerated uploading </li>
+                <li> Uploads from URL </li>
+                <li> Malware protection </li>
+                <li> Signed uploads </li>
+                <li> Platform-side MIME-type filtering </li>
+                <li> Up to 5 TB file size </li>
             </ul>
         </div>
 
